@@ -348,8 +348,9 @@ client.on('ready', () => {
         console.log(`----------------`);
       console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
     console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setStatus("dnd")
+ console.log(`Logged in as ${client.user.tag}!`);
+	client.user.setgame(`Play :notes: Zonix'Music | 5play`)
+client.user.setStatus("online")
 });
 
 client.login(process.env.BOT_TOKEN);
